@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h6,p,a,li {
+    font-family:noka; 
+    font-size: 16px;
+    font-weight: normal;
+    color:rgb(224, 222, 220);
+    text-decoration: none; 
+}
+/*END OF RESET */
+a {
+    font-size: 20px;
+}
+p {
+    font-size: 17px;
+}
+.artist 
+{
+    font-size: 20px;
+    padding: 5px;   
+    display: inline-block;
+}
+h4 {
+    font-family:noka;
+    font-size: 30px;
+    text-align: center;
+margin: -200px;
+}
+body {
+    max-width: 1100px;
+    margin: 0px auto;
+    background-color: rgb(113, 103, 90);
+}
+
+header,footer {
+    height: 50px;
+    background-color:rgb(113, 103, 90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.center {
+    display: block;
+    margin-left: -50px;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+    display: flex;
+  }
+header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(224, 222, 220);
+}
+footer {
+    margin-top: 20px;
+    border-top: 1px solid rgb(224, 222, 220);
+}
+h1 {
+    font-family:noka;
+    font-size: 32px;
+}
+h2 {
+    font-family: noka;
+    font-size: 60px;
+    text-align: center;
+    margin: 200px;
+}
+.card {
+    width: auto;
+    padding: 0px 0px 0x 0px;
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+}
+.social-icon {
+    width: 30px;
+    display: flex;
+    margin-left: 0px;
+}
+
+.citation, .citation a {
+    color:#ccc;
+    text-align: center;
+}
